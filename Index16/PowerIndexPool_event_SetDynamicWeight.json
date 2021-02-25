@@ -1,0 +1,76 @@
+{
+    "parser": {
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "token",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "fromDenorm",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "targetDenorm",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "fromTimestamp",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "targetTimestamp",
+                    "type": "uint256"
+                }
+            ],
+            "name": "SetDynamicWeight",
+            "type": "event"
+        },
+        "contract_address": "0x26607ac599266b21d13c7acf7942c7701a8b699c",
+        "field_mapping": {},
+        "type": "log"
+    },
+    "table": {
+        "dataset_name": "",
+        "schema": [
+            {
+                "description": "",
+                "name": "token",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "fromDenorm",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "targetDenorm",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "fromTimestamp",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "targetTimestamp",
+                "type": "STRING"
+            }
+        ],
+        "table_description": "",
+        "table_name": "PowerIndexPool_event_SetDynamicWeight"
+    }
+}

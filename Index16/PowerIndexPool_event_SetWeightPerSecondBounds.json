@@ -1,0 +1,43 @@
+{
+    "parser": {
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "minWeightPerSecond",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "maxWeightPerSecond",
+                    "type": "uint256"
+                }
+            ],
+            "name": "SetWeightPerSecondBounds",
+            "type": "event"
+        },
+        "contract_address": "0x26607ac599266b21d13c7acf7942c7701a8b699c",
+        "field_mapping": {},
+        "type": "log"
+    },
+    "table": {
+        "dataset_name": "",
+        "schema": [
+            {
+                "description": "",
+                "name": "minWeightPerSecond",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "maxWeightPerSecond",
+                "type": "STRING"
+            }
+        ],
+        "table_description": "",
+        "table_name": "PowerIndexPool_event_SetWeightPerSecondBounds"
+    }
+}
