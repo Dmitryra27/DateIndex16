@@ -1,0 +1,54 @@
+{
+    "parser": {
+        "abi": {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "caller",
+                    "type": "address"
+                },
+                {
+                    "indexed": true,
+                    "internalType": "address",
+                    "name": "tokenOut",
+                    "type": "address"
+                },
+                {
+                    "indexed": false,
+                    "internalType": "uint256",
+                    "name": "tokenAmountOut",
+                    "type": "uint256"
+                }
+            ],
+            "name": "LOG_EXIT",
+            "type": "event"
+        },
+        "contract_address": "0xb4bebd34f6daafd808f73de0d10235a92fbb6c3d",
+        "field_mapping": {},
+        "type": "log"
+    },
+    "table": {
+        "dataset_name": "Index7",
+        "schema": [
+            {
+                "description": "",
+                "name": "caller",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "tokenOut",
+                "type": "STRING"
+            },
+            {
+                "description": "",
+                "name": "tokenAmountOut",
+                "type": "STRING"
+            }
+        ],
+        "table_description": "",
+        "table_name": "PowerIndexPool_event_LOG_EXIT"
+    }
+}
